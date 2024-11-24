@@ -190,7 +190,7 @@ namespace ScheduleApplication
 
                 _scheduleControllers.UpdateSchedule(updatedSchedule);
                 LoadSchedule();
-                MessageBox.Show("Note updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Schedule updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             };
             updateScheduleForm.ShowDialog();
         }
