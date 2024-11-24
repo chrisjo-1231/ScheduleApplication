@@ -33,7 +33,7 @@ namespace ScheduleApplication
             panelSchedule.Size = new Size(this.ClientSize.Width - 40, this.ClientSize.Height - 100); // Dynamic width & height
             panelSchedule.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Bottom;
 
-            var schedules = _scheduleControllers.GetAllNotes();
+            var schedules = _scheduleControllers.GetAllSchedule();
             foreach (var schedule in schedules)
             {
                 AddScheduleCard(schedule);
